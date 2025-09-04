@@ -122,3 +122,55 @@ nav button {
     left: 250px;
     width: 49%;
 }
+
+
+/* Mini-Bar */
+#mini-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 20px 0px;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+
+#students {
+    position: relative;
+    width: 290px;
+    height: 60px;
+    /* background-color: #FFCE31; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+.studentImg {
+    position:absolute;
+    top: 0;
+}
+
+.imgOne {
+    left: 0px;
+}
+
+.imgTwo {
+    left: 30px;
+}
+
+.imgThree {
+    left: 60px;
+}
+
+.imgFour {
+    left: 90px;
+}
+
+.imgFive {
+    left: 120px;
+}
+
+.logos {
+    width: 545px;
+}
