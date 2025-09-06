@@ -178,6 +178,7 @@ nav button {
 #second {
     width: 90%;
     max-width: 100%;
+    min-height: 100vh;
     padding-top: 70px;
 }
 
@@ -228,4 +229,24 @@ nav button {
     width: 70%;
     position: absolute;
     bottom: 0;
+}
+
+/* Third Section */
+#third {
+    width: 90%;
+    max-width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+#third h2 {
+    font-size: 45px;
+}
+
+#third img {
+    padding-top: 45px;
+    width: 80%;
 }
