@@ -132,14 +132,12 @@ nav button {
     width: 90%;
     padding: 20px 0px;
     margin-top: 20px;
-    /* background-color: red; */
 }
 
 #students {
     position: relative;
     width: 290px;
     height: 60px;
-    /* background-color: #FFCE31; */
     display: flex;
     justify-content: end;
     align-items: center;
@@ -173,4 +171,61 @@ nav button {
 
 .logos {
     width: 545px;
+}
+
+
+/* Second Section */
+#second {
+    width: 90%;
+    max-width: 100%;
+    padding-top: 70px;
+}
+
+#second .titles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titles h2 {
+    width: 828px;
+    font-size: 44px;
+}
+
+.titles p {
+    width: 400px;
+    line-height: 28px;
+}
+
+.frame {
+    width: 100%;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rectangle {
+    width: 500px;
+    height: 550px;
+    padding: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    position: relative;
+    border-radius: 40px;
+    background-color: #FFF0BF;
+}
+
+.rectangle p {
+    font-size: 14px;
+    line-height: 20px
+}
+
+.rectangle img {
+    width: 70%;
+    position: absolute;
+    bottom: 0;
 }
