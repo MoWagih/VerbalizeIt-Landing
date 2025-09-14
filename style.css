@@ -295,9 +295,12 @@ nav button {
 
 /* footer */
 footer {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 100px;
+    padding: 50px 100px;
+    border-bottom: 1px solid gray;
 }
 
 .right {
@@ -309,5 +312,18 @@ footer {
 
 .right p {
     line-height: 30px;
+}
+
+.left {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
